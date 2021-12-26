@@ -149,6 +149,7 @@ ul {
 #FMiddle {
     float: left;
     width: 30%;
+    margin-top: 32px;
     padding-left: 14%;
     margin-right: 0;
 }
@@ -324,7 +325,8 @@ a {
     padding-right: 5%;
     filter: grayscale(100%);
 }
-.halfleft2:hover{
+
+.halfleft2:hover {
     filter: grayscale(0%);
 }
 
@@ -334,7 +336,8 @@ a {
     padding-left: 5%;
     filter: grayscale(100%);
 }
-.halfright2:hover{
+
+.halfright2:hover {
     filter: grayscale(0%);
 }
 
@@ -369,6 +372,10 @@ a {
 .half canvas {
     width: 100%;
     margin-top: 3%;
+}
+
+.half a {
+    color: black;
 }
 
 @media(max-width: 1600px) {
